@@ -11,7 +11,13 @@ define('_ADMIN_PATH', _ROOT_PATH."/admin");
 define('_ROOT_URL','http://'.$_SERVER['HTTP_HOST']);
 define('_ADMIN_URL',_ROOT_URL."/admin");
 
-
+/**
+/*Database configuration
+*/
+define('_DATABASE_HOST', 'localhost');
+define('_DATABASE_USER', 'root');
+define('_DATABASE_PASSWORD','');
+define('_DATABASE_NAME','ecommerce');
 
 /**
  * Loads the classes automatically
