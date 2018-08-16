@@ -247,21 +247,21 @@
                                             </a>
                                             <ul class="list-unstyled navbar__sub-list js-sub-list">
                                                 <li>
-                                                    <a href="index.html">Dashboard 1</a>
+                                                    <a href="index.php">Dashboard 1</a>
                                                 </li>
                                                 <li>
-                                                    <a href="index2.html">Dashboard 2</a>
+                                                    <a href="index2.php">Dashboard 2</a>
                                                 </li>
                                                 <li>
-                                                    <a href="index3.html">Dashboard 3</a>
+                                                    <a href="index3.php">Dashboard 3</a>
                                                 </li>
                                                 <li>
-                                                    <a href="index4.html">Dashboard 4</a>
+                                                    <a href="index4.php">Dashboard 4</a>
                                                 </li>
                                             </ul>
                                         </li>
                                         <li>
-                                            <a href="inbox.html">
+                                            <a href="inbox.php">
                                                 <i class="fas fa-chart-bar"></i>Inbox</a>
                                             <span class="inbox-num">3</span>
                                         </li>
@@ -278,16 +278,16 @@
                                             </a>
                                             <ul class="list-unstyled navbar__sub-list js-sub-list">
                                                 <li>
-                                                    <a href="table.html">Tables</a>
+                                                    <a href="table.php">Tables</a>
                                                 </li>
                                                 <li>
-                                                    <a href="form.html">Forms</a>
+                                                    <a href="form.php">Forms</a>
                                                 </li>
                                                 <li>
                                                     <a href="#">Calendar</a>
                                                 </li>
                                                 <li>
-                                                    <a href="map.html">Maps</a>
+                                                    <a href="map.php">Maps</a>
                                                 </li>
                                             </ul>
                                         </li>
@@ -300,13 +300,13 @@
                                             </a>
                                             <ul class="list-unstyled navbar__sub-list js-sub-list">
                                                 <li>
-                                                    <a href="login.html">Login</a>
+                                                    <a href="login.php">Login</a>
                                                 </li>
                                                 <li>
-                                                    <a href="register.html">Register</a>
+                                                    <a href="register.php">Register</a>
                                                 </li>
                                                 <li>
-                                                    <a href="forget-pass.html">Forget Password</a>
+                                                    <a href="forget-pass.php">Forget Password</a>
                                                 </li>
                                             </ul>
                                         </li>
@@ -319,37 +319,37 @@
                                             </a>
                                             <ul class="list-unstyled navbar__sub-list js-sub-list">
                                                 <li>
-                                                    <a href="button.html">Button</a>
+                                                    <a href="button.php">Button</a>
                                                 </li>
                                                 <li>
-                                                    <a href="badge.html">Badges</a>
+                                                    <a href="badge.php">Badges</a>
                                                 </li>
                                                 <li>
-                                                    <a href="tab.html">Tabs</a>
+                                                    <a href="tab.php">Tabs</a>
                                                 </li>
                                                 <li>
-                                                    <a href="card.html">Cards</a>
+                                                    <a href="card.php">Cards</a>
                                                 </li>
                                                 <li>
-                                                    <a href="alert.html">Alerts</a>
+                                                    <a href="alert.php">Alerts</a>
                                                 </li>
                                                 <li>
-                                                    <a href="progress-bar.html">Progress Bars</a>
+                                                    <a href="progress-bar.php">Progress Bars</a>
                                                 </li>
                                                 <li>
-                                                    <a href="modal.html">Modals</a>
+                                                    <a href="modal.php">Modals</a>
                                                 </li>
                                                 <li>
-                                                    <a href="switch.html">Switchs</a>
+                                                    <a href="switch.php">Switchs</a>
                                                 </li>
                                                 <li>
-                                                    <a href="grid.html">Grids</a>
+                                                    <a href="grid.php">Grids</a>
                                                 </li>
                                                 <li>
-                                                    <a href="fontawesome.html">FontAwesome</a>
+                                                    <a href="fontawesome.php">FontAwesome</a>
                                                 </li>
                                                 <li>
-                                                    <a href="typo.html">Typography</a>
+                                                    <a href="typo.php">Typography</a>
                                                 </li>
                                             </ul>
                                         </li>

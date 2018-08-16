@@ -10,7 +10,7 @@
 	<meta name="keywords" content="au theme template">
 
 	<!-- Title Page-->
-	<title>Alert</title>
+	<title>Modal</title>
 
 	<!-- Fontfaces CSS-->
 	<link href="css/font-face.css" rel="stylesheet" media="all">
@@ -42,7 +42,7 @@
 			<div class="header-mobile__bar">
 				<div class="container-fluid">
 					<div class="header-mobile-inner">
-						<a class="logo" href="index.html">
+						<a class="logo" href="index.php">
 							<img src="images/icon/logo.png" alt="CoolAdmin" />
 						</a>
 						<button class="hamburger hamburger--slider" type="button">
@@ -61,29 +61,29 @@
 								<i class="fas fa-tachometer-alt"></i>Dashboard</a>
 							<ul class="navbar-mobile-sub__list list-unstyled js-sub-list">
 								<li>
-									<a href="index.html">Dashboard 1</a>
+									<a href="index.php">Dashboard 1</a>
 								</li>
 								<li>
-									<a href="index2.html">Dashboard 2</a>
+									<a href="index2.php">Dashboard 2</a>
 								</li>
 								<li>
-									<a href="index3.html">Dashboard 3</a>
+									<a href="index3.php">Dashboard 3</a>
 								</li>
 								<li>
-									<a href="index4.html">Dashboard 4</a>
+									<a href="index4.php">Dashboard 4</a>
 								</li>
 							</ul>
 						</li>
 						<li>
-							<a href="chart.html">
+							<a href="chart.php">
 								<i class="fas fa-chart-bar"></i>Charts</a>
 						</li>
 						<li>
-							<a href="table.html">
+							<a href="table.php">
 								<i class="fas fa-table"></i>Tables</a>
 						</li>
 						<li>
-							<a href="form.html">
+							<a href="form.php">
 								<i class="far fa-check-square"></i>Forms</a>
 						</li>
 						<li>
@@ -91,7 +91,7 @@
 								<i class="fas fa-calendar-alt"></i>Calendar</a>
 						</li>
 						<li>
-							<a href="map.html">
+							<a href="map.php">
 								<i class="fas fa-map-marker-alt"></i>Maps</a>
 						</li>
 						<li class="has-sub">
@@ -99,13 +99,13 @@
 								<i class="fas fa-copy"></i>Pages</a>
 							<ul class="navbar-mobile-sub__list list-unstyled js-sub-list">
 								<li>
-									<a href="login.html">Login</a>
+									<a href="login.php">Login</a>
 								</li>
 								<li>
-									<a href="register.html">Register</a>
+									<a href="register.php">Register</a>
 								</li>
 								<li>
-									<a href="forget-pass.html">Forget Password</a>
+									<a href="forget-pass.php">Forget Password</a>
 								</li>
 							</ul>
 						</li>
@@ -114,37 +114,37 @@
 								<i class="fas fa-desktop"></i>UI Elements</a>
 							<ul class="navbar-mobile-sub__list list-unstyled js-sub-list">
 								<li>
-									<a href="button.html">Button</a>
+									<a href="button.php">Button</a>
 								</li>
 								<li>
-									<a href="badge.html">Badges</a>
+									<a href="badge.php">Badges</a>
 								</li>
 								<li>
-									<a href="tab.html">Tabs</a>
+									<a href="tab.php">Tabs</a>
 								</li>
 								<li>
-									<a href="card.html">Cards</a>
+									<a href="card.php">Cards</a>
 								</li>
 								<li>
-									<a href="alert.html">Alerts</a>
+									<a href="alert.php">Alerts</a>
 								</li>
 								<li>
-									<a href="progress-bar.html">Progress Bars</a>
+									<a href="progress-bar.php">Progress Bars</a>
 								</li>
 								<li>
-									<a href="modal.html">Modals</a>
+									<a href="modal.php">Modals</a>
 								</li>
 								<li>
-									<a href="switch.html">Switchs</a>
+									<a href="switch.php">Switchs</a>
 								</li>
 								<li>
-									<a href="grid.html">Grids</a>
+									<a href="grid.php">Grids</a>
 								</li>
 								<li>
-									<a href="fontawesome.html">Fontawesome Icon</a>
+									<a href="fontawesome.php">Fontawesome Icon</a>
 								</li>
 								<li>
-									<a href="typo.html">Typography</a>
+									<a href="typo.php">Typography</a>
 								</li>
 							</ul>
 						</li>
@@ -169,29 +169,29 @@
 								<i class="fas fa-tachometer-alt"></i>Dashboard</a>
 							<ul class="list-unstyled navbar__sub-list js-sub-list">
 								<li>
-									<a href="index.html">Dashboard 1</a>
+									<a href="index.php">Dashboard 1</a>
 								</li>
 								<li>
-									<a href="index2.html">Dashboard 2</a>
+									<a href="index2.php">Dashboard 2</a>
 								</li>
 								<li>
-									<a href="index3.html">Dashboard 3</a>
+									<a href="index3.php">Dashboard 3</a>
 								</li>
 								<li>
-									<a href="index4.html">Dashboard 4</a>
+									<a href="index4.php">Dashboard 4</a>
 								</li>
 							</ul>
 						</li>
 						<li>
-							<a href="chart.html">
+							<a href="chart.php">
 								<i class="fas fa-chart-bar"></i>Charts</a>
 						</li>
 						<li>
-							<a href="table.html">
+							<a href="table.php">
 								<i class="fas fa-table"></i>Tables</a>
 						</li>
 						<li>
-							<a href="form.html">
+							<a href="form.php">
 								<i class="far fa-check-square"></i>Forms</a>
 						</li>
 						<li>
@@ -199,7 +199,7 @@
 								<i class="fas fa-calendar-alt"></i>Calendar</a>
 						</li>
 						<li>
-							<a href="map.html">
+							<a href="map.php">
 								<i class="fas fa-map-marker-alt"></i>Maps</a>
 						</li>
 						<li class="has-sub">
@@ -207,13 +207,13 @@
 								<i class="fas fa-copy"></i>Pages</a>
 							<ul class="list-unstyled navbar__sub-list js-sub-list">
 								<li>
-									<a href="login.html">Login</a>
+									<a href="login.php">Login</a>
 								</li>
 								<li>
-									<a href="register.html">Register</a>
+									<a href="register.php">Register</a>
 								</li>
 								<li>
-									<a href="forget-pass.html">Forget Password</a>
+									<a href="forget-pass.php">Forget Password</a>
 								</li>
 							</ul>
 						</li>
@@ -222,37 +222,37 @@
 								<i class="fas fa-desktop"></i>UI Elements</a>
 							<ul class="list-unstyled navbar__sub-list js-sub-list">
 								<li>
-									<a href="button.html">Button</a>
+									<a href="button.php">Button</a>
 								</li>
 								<li>
-									<a href="badge.html">Badges</a>
+									<a href="badge.php">Badges</a>
 								</li>
 								<li>
-									<a href="tab.html">Tabs</a>
+									<a href="tab.php">Tabs</a>
 								</li>
 								<li>
-									<a href="card.html">Cards</a>
+									<a href="card.php">Cards</a>
 								</li>
 								<li>
-									<a href="alert.html">Alerts</a>
+									<a href="alert.php">Alerts</a>
 								</li>
 								<li>
-									<a href="progress-bar.html">Progress Bars</a>
+									<a href="progress-bar.php">Progress Bars</a>
 								</li>
 								<li>
-									<a href="modal.html">Modals</a>
+									<a href="modal.php">Modals</a>
 								</li>
 								<li>
-									<a href="switch.html">Switchs</a>
+									<a href="switch.php">Switchs</a>
 								</li>
 								<li>
-									<a href="grid.html">Grids</a>
+									<a href="grid.php">Grids</a>
 								</li>
 								<li>
-									<a href="fontawesome.html">Fontawesome Icon</a>
+									<a href="fontawesome.php">Fontawesome Icon</a>
 								</li>
 								<li>
-									<a href="typo.html">Typography</a>
+									<a href="typo.php">Typography</a>
 								</li>
 							</ul>
 						</li>
@@ -436,209 +436,216 @@
 					</div>
 				</div>
 			</header>
-			<!-- HEADER DESKTOP-->
+			<!-- END HEADER DESKTOP-->
+
 			<!-- MAIN CONTENT-->
 			<div class="main-content">
 				<div class="section__content section__content--p30">
 					<div class="container-fluid">
 						<div class="row">
-							<div class="col-md-6">
-
+							<div class="col-md-12">
 								<div class="card">
 									<div class="card-header">
-										<strong class="card-title">Alerts</strong>
+										<i class="mr-2 fa fa-align-justify"></i>
+										<strong class="card-title" v-if="headerText">Modals</strong>
 									</div>
 									<div class="card-body">
-										<div class="alert alert-primary" role="alert">
-											This is a primary alert—check it out!
-										</div>
-										<div class="alert alert-secondary" role="alert">
-											This is a secondary alert—check it out!
-										</div>
-										<div class="alert alert-success" role="alert">
-											This is a success alert—check it out!
-										</div>
-										<div class="alert alert-danger" role="alert">
-											This is a danger alert—check it out!
-										</div>
-										<div class="alert alert-warning" role="alert">
-											This is a warning alert—check it out!
-										</div>
-										<div class="alert alert-info" role="alert">
-											This is a info alert—check it out!
-										</div>
-										<div class="alert alert-light" role="alert">
-											This is a light alert—check it out!
-										</div>
-										<div class="alert alert-dark" role="alert">
-											This is a dark alert—check it out!
-										</div>
-									</div>
-								</div>
 
-								<div class="card">
-									<div class="card-header">
-										<strong class="card-title">Link Color Alerts</strong>
-									</div>
-									<div class="card-body">
-										<div class="alert alert-primary" role="alert">
-											This is a primary alert with
-											<a href="#" class="alert-link">an example link</a>. Give it a click if you like.
-										</div>
-										<div class="alert alert-secondary" role="alert">
-											This is a secondary alert with
-											<a href="#" class="alert-link">an example link</a>. Give it a click if you like.
-										</div>
-										<div class="alert alert-success" role="alert">
-											This is a success alert with
-											<a href="#" class="alert-link">an example link</a>. Give it a click if you like.
-										</div>
-										<div class="alert alert-danger" role="alert">
-											This is a danger alert with
-											<a href="#" class="alert-link">an example link</a>. Give it a click if you like.
-										</div>
-										<div class="alert alert-warning" role="alert">
-											This is a warning alert with
-											<a href="#" class="alert-link">an example link</a>. Give it a click if you like.
-										</div>
-										<div class="alert alert-info" role="alert">
-											This is a info alert with
-											<a href="#" class="alert-link">an example link</a>. Give it a click if you like.
-										</div>
-										<div class="alert alert-light" role="alert">
-											This is a light alert with
-											<a href="#" class="alert-link">an example link</a>. Give it a click if you like.
-										</div>
-										<div class="alert alert-dark" role="alert">
-											This is a dark alert with
-											<a href="#" class="alert-link">an example link</a>. Give it a click if you like.
-										</div>
+										<!-- Button trigger modal -->
+										<button type="button" class="btn btn-secondary mb-1" data-toggle="modal" data-target="#smallmodal">
+											Small
+										</button>
+
+										<button type="button" class="btn btn-secondary mb-1" data-toggle="modal" data-target="#mediumModal">
+											Medium
+										</button>
+										<button type="button" class="btn btn-secondary mb-1" data-toggle="modal" data-target="#largeModal">
+											Large
+										</button>
+										<button type="button" class="btn btn-secondary mb-1" data-toggle="modal" data-target="#scrollmodal">
+											Scrolling
+										</button>
+										<button type="button" class="btn btn-secondary mb-1" data-toggle="modal" data-target="#staticModal">
+											Static
+										</button>
+
 									</div>
 								</div>
 
 
-							</div>
 
-
-							<div class="col-md-6">
-
-								<div class="card">
-									<div class="card-header">
-										<strong class="card-title">Dismissing Alerts</strong>
-									</div>
-									<div class="card-body">
-										<div class="sufee-alert alert with-close alert-primary alert-dismissible fade show">
-											<span class="badge badge-pill badge-primary">Success</span>
-											You successfully read this important alert.
-											<button type="button" class="close" data-dismiss="alert" aria-label="Close">
-												<span aria-hidden="true">&times;</span>
-											</button>
-										</div>
-
-										<div class="sufee-alert alert with-close alert-secondary alert-dismissible fade show">
-											<span class="badge badge-pill badge-secondary">Success</span>
-											You successfully read this important alert.
-											<button type="button" class="close" data-dismiss="alert" aria-label="Close">
-												<span aria-hidden="true">&times;</span>
-											</button>
-										</div>
-
-										<div class="sufee-alert alert with-close alert-success alert-dismissible fade show">
-											<span class="badge badge-pill badge-success">Success</span>
-											You successfully read this important alert.
-											<button type="button" class="close" data-dismiss="alert" aria-label="Close">
-												<span aria-hidden="true">&times;</span>
-											</button>
-										</div>
-
-										<div class="sufee-alert alert with-close alert-danger alert-dismissible fade show">
-											<span class="badge badge-pill badge-danger">Success</span>
-											You successfully read this important alert.
-											<button type="button" class="close" data-dismiss="alert" aria-label="Close">
-												<span aria-hidden="true">&times;</span>
-											</button>
-										</div>
-
-										<div class="sufee-alert alert with-close alert-warning alert-dismissible fade show">
-											<span class="badge badge-pill badge-warning">Success</span>
-											You successfully read this important alert.
-											<button type="button" class="close" data-dismiss="alert" aria-label="Close">
-												<span aria-hidden="true">&times;</span>
-											</button>
-										</div>
-
-										<div class="sufee-alert alert with-close alert-info alert-dismissible fade show">
-											<span class="badge badge-pill badge-info">Success</span>
-											You successfully read this important alert.
-											<button type="button" class="close" data-dismiss="alert" aria-label="Close">
-												<span aria-hidden="true">&times;</span>
-											</button>
-										</div>
-
-										<div class="sufee-alert alert with-close alert-light alert-dismissible fade show">
-											<span class="badge badge-pill badge-light">Success</span>
-											You successfully read this important alert.
-											<button type="button" class="close" data-dismiss="alert" aria-label="Close">
-												<span aria-hidden="true">&times;</span>
-											</button>
-										</div>
-
-										<div class="sufee-alert alert with-close alert-dark alert-dismissible fade show">
-											<span class="badge badge-pill badge-dark">Success</span>
-											You successfully read this important alert.
-											<button type="button" class="close" data-dismiss="alert" aria-label="Close">
-												<span aria-hidden="true">&times;</span>
-											</button>
-										</div>
-
-									</div>
-								</div>
-
-								<div class="card">
-									<div class="card-header">
-										<strong class="card-title">Contents</strong>
-									</div>
-									<div class="card-body">
-										<div class="alert alert-success" role="alert">
-											<h4 class="alert-heading">Well done!</h4>
-											<p>Aww yeah, you successfully read this important alert message. This example text is going to run a bit longer so
-												that you can see how spacing within an alert works with this kind of content.</p>
-											<hr>
-											<p class="mb-0">Whenever you need to, be sure to use margin utilities to keep things nice and tidy.</p>
-										</div>
-
-										<div class="alert alert-warning" role="alert">
-											<h4 class="alert-heading">Well done!</h4>
-											<p>Aww yeah, you successfully read this important alert message. This example text is going to run a bit longer so
-												that you can see how spacing within an alert works with this kind of content.</p>
-											<hr>
-											<p class="mb-0">Whenever you need to, be sure to use margin utilities to keep things nice and tidy.</p>
-										</div>
-
-										<div class="alert alert-danger" role="alert">
-											<h4 class="alert-heading">Well done!</h4>
-											<p>Aww yeah, you successfully read this important alert message. This example text is going to run a bit longer so
-												that you can see how spacing within an alert works with this kind of content.</p>
-											<hr>
-											<p class="mb-0">Whenever you need to, be sure to use margin utilities to keep things nice and tidy.</p>
-										</div>
-									</div>
-								</div>
 
 
 
 							</div>
-						</div>
-						<div class="row">
-								<div class="col-md-12">
-										<div class="copyright">
-												<p>Copyright © 2018 Colorlib. All rights reserved. Template by <a href="https://colorlib.com">Colorlib</a>.</p>
-										</div>
-								</div>
 						</div>
 					</div>
 				</div>
 			</div>
+			<!-- modal small -->
+			<div class="modal fade" id="smallmodal" tabindex="-1" role="dialog" aria-labelledby="smallmodalLabel" aria-hidden="true">
+				<div class="modal-dialog modal-sm" role="document">
+					<div class="modal-content">
+						<div class="modal-header">
+							<h5 class="modal-title" id="smallmodalLabel">Small Modal</h5>
+							<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+								<span aria-hidden="true">&times;</span>
+							</button>
+						</div>
+						<div class="modal-body">
+							<p>
+								There are three species of zebras: the plains zebra, the mountain zebra and the Grévy's zebra. The plains zebra and the mountain
+								zebra belong to the subgenus Hippotigris, but Grévy's zebra is the sole species of subgenus Dolichohippus. The latter
+								resembles an ass, to which it is closely related, while the former two are more horse-like. All three belong to the
+								genus Equus, along with other living equids.
+							</p>
+						</div>
+						<div class="modal-footer">
+							<button type="button" class="btn btn-secondary" data-dismiss="modal">Cancel</button>
+							<button type="button" class="btn btn-primary">Confirm</button>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!-- end modal small -->
+
+			<!-- modal medium -->
+			<div class="modal fade" id="mediumModal" tabindex="-1" role="dialog" aria-labelledby="mediumModalLabel" aria-hidden="true">
+				<div class="modal-dialog modal-lg" role="document">
+					<div class="modal-content">
+						<div class="modal-header">
+							<h5 class="modal-title" id="mediumModalLabel">Medium Modal</h5>
+							<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+								<span aria-hidden="true">&times;</span>
+							</button>
+						</div>
+						<div class="modal-body">
+							<p>
+								There are three species of zebras: the plains zebra, the mountain zebra and the Grévy's zebra. The plains zebra and the mountain
+								zebra belong to the subgenus Hippotigris, but Grévy's zebra is the sole species of subgenus Dolichohippus. The latter
+								resembles an ass, to which it is closely related, while the former two are more horse-like. All three belong to the
+								genus Equus, along with other living equids.
+							</p>
+						</div>
+						<div class="modal-footer">
+							<button type="button" class="btn btn-secondary" data-dismiss="modal">Cancel</button>
+							<button type="button" class="btn btn-primary">Confirm</button>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!-- end modal medium -->
+
+			<!-- modal large -->
+			<div class="modal fade" id="largeModal" tabindex="-1" role="dialog" aria-labelledby="largeModalLabel" aria-hidden="true">
+				<div class="modal-dialog modal-lg" role="document">
+					<div class="modal-content">
+						<div class="modal-header">
+							<h5 class="modal-title" id="largeModalLabel">Large Modal</h5>
+							<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+								<span aria-hidden="true">&times;</span>
+							</button>
+						</div>
+						<div class="modal-body">
+							<p>
+								There are three species of zebras: the plains zebra, the mountain zebra and the Grévy's zebra. The plains zebra and the mountain
+								zebra belong to the subgenus Hippotigris, but Grévy's zebra is the sole species of subgenus Dolichohippus. The latter
+								resembles an ass, to which it is closely related, while the former two are more horse-like. All three belong to the
+								genus Equus, along with other living equids.
+							</p>
+						</div>
+						<div class="modal-footer">
+							<button type="button" class="btn btn-secondary" data-dismiss="modal">Cancel</button>
+							<button type="button" class="btn btn-primary">Confirm</button>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!-- end modal large -->
+
+			<!-- modal scroll -->
+			<div class="modal fade" id="scrollmodal" tabindex="-1" role="dialog" aria-labelledby="scrollmodalLabel" aria-hidden="true">
+				<div class="modal-dialog modal-lg" role="document">
+					<div class="modal-content">
+						<div class="modal-header">
+							<h5 class="modal-title" id="scrollmodalLabel">Scrolling Long Content Modal</h5>
+							<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+								<span aria-hidden="true">&times;</span>
+							</button>
+						</div>
+						<div class="modal-body">
+							<p>
+								Cras mattis consectetur purus sit amet fermentum. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Morbi leo
+								risus, porta ac consectetur ac, vestibulum at eros.
+								<br> Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Vivamus sagittis lacus vel augue laoreet rutrum
+								faucibus dolor auctor.
+								<br> Aenean lacinia bibendum nulla sed consectetur. Praesent commodo cursus magna, vel scelerisque nisl consectetur et.
+								Donec sed odio dui. Donec ullamcorper nulla non metus auctor fringilla.
+								<br> Cras mattis consectetur purus sit amet fermentum. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Morbi
+								leo risus, porta ac consectetur ac, vestibulum at eros.
+								<br> Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Vivamus sagittis lacus vel augue laoreet rutrum
+								faucibus dolor auctor.
+								<br> Aenean lacinia bibendum nulla sed consectetur. Praesent commodo cursus magna, vel scelerisque nisl consectetur et.
+								Donec sed odio dui. Donec ullamcorper nulla non metus auctor fringilla.
+								<br> Cras mattis consectetur purus sit amet fermentum. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Morbi
+								leo risus, porta ac consectetur ac, vestibulum at eros.
+								<br> Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Vivamus sagittis lacus vel augue laoreet rutrum
+								faucibus dolor auctor.
+								<br> Aenean lacinia bibendum nulla sed consectetur. Praesent commodo cursus magna, vel scelerisque nisl consectetur et.
+								Donec sed odio dui. Donec ullamcorper nulla non metus auctor fringilla.
+								<br> Cras mattis consectetur purus sit amet fermentum. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Morbi
+								leo risus, porta ac consectetur ac, vestibulum at eros.
+								<br> Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Vivamus sagittis lacus vel augue laoreet rutrum
+								faucibus dolor auctor.
+								<br> Aenean lacinia bibendum nulla sed consectetur. Praesent commodo cursus magna, vel scelerisque nisl consectetur et.
+								Donec sed odio dui. Donec ullamcorper nulla non metus auctor fringilla.
+								<br> Cras mattis consectetur purus sit amet fermentum. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Morbi
+								leo risus, porta ac consectetur ac, vestibulum at eros.
+								<br> Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Vivamus sagittis lacus vel augue laoreet rutrum
+								faucibus dolor auctor.
+								<br> Aenean lacinia bibendum nulla sed consectetur. Praesent commodo cursus magna, vel scelerisque nisl consectetur et.
+								Donec sed odio dui. Donec ullamcorper nulla non metus auctor fringilla.
+								<br> Cras mattis consectetur purus sit amet fermentum. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Morbi
+								leo risus, porta ac consectetur ac, vestibulum at eros.
+								<br> Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Vivamus sagittis lacus vel augue laoreet rutrum
+								faucibus dolor auctor.
+								<br> Aenean lacinia bibendum nulla sed consectetur. Praesent commodo cursus magna, vel scelerisque nisl consectetur et.
+								Donec sed odio dui. Donec ullamcorper nulla non metus auctor fringilla.
+							</p>
+						</div>
+						<div class="modal-footer">
+							<button type="button" class="btn btn-secondary" data-dismiss="modal">Cancel</button>
+							<button type="button" class="btn btn-primary">Confirm</button>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!-- end modal scroll -->
+			<!-- modal static -->
+			<div class="modal fade" id="staticModal" tabindex="-1" role="dialog" aria-labelledby="staticModalLabel" aria-hidden="true"
+			 data-backdrop="static">
+				<div class="modal-dialog modal-sm" role="document">
+					<div class="modal-content">
+						<div class="modal-header">
+							<h5 class="modal-title" id="staticModalLabel">Static Modal</h5>
+							<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+								<span aria-hidden="true">&times;</span>
+							</button>
+						</div>
+						<div class="modal-body">
+							<p>
+								This is a static modal, backdrop click will not close it.
+							</p>
+						</div>
+						<div class="modal-footer">
+							<button type="button" class="btn btn-secondary" data-dismiss="modal">Cancel</button>
+							<button type="button" class="btn btn-primary">Confirm</button>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!-- end modal static -->
+
 		</div>
 		<!-- END PAGE CONTAINER-->
 

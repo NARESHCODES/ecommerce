@@ -64,25 +64,25 @@
                             </a>
                             <ul class="list-unstyled navbar__sub-list js-sub-list">
                                 <li>
-                                    <a href="index.html">
+                                    <a href="index.php">
                                         <i class="fas fa-tachometer-alt"></i>Dashboard 1</a>
                                 </li>
                                 <li>
-                                    <a href="index2.html">
+                                    <a href="index2.php">
                                         <i class="fas fa-tachometer-alt"></i>Dashboard 2</a>
                                 </li>
                                 <li>
-                                    <a href="index3.html">
+                                    <a href="index3.php">
                                         <i class="fas fa-tachometer-alt"></i>Dashboard 3</a>
                                 </li>
                                 <li>
-                                    <a href="index4.html">
+                                    <a href="index4.php">
                                         <i class="fas fa-tachometer-alt"></i>Dashboard 4</a>
                                 </li>
                             </ul>
                         </li>
                         <li>
-                            <a href="inbox.html">
+                            <a href="inbox.php">
                                 <i class="fas fa-chart-bar"></i>Inbox</a>
                             <span class="inbox-num">3</span>
                         </li>
@@ -99,11 +99,11 @@
                             </a>
                             <ul class="list-unstyled navbar__sub-list js-sub-list">
                                 <li>
-                                    <a href="table.html">
+                                    <a href="table.php">
                                         <i class="fas fa-table"></i>Tables</a>
                                 </li>
                                 <li>
-                                    <a href="form.html">
+                                    <a href="form.php">
                                         <i class="far fa-check-square"></i>Forms</a>
                                 </li>
                                 <li>
@@ -111,7 +111,7 @@
                                         <i class="fas fa-calendar-alt"></i>Calendar</a>
                                 </li>
                                 <li>
-                                    <a href="map.html">
+                                    <a href="map.php">
                                         <i class="fas fa-map-marker-alt"></i>Maps</a>
                                 </li>
                             </ul>
@@ -125,15 +125,15 @@
                             </a>
                             <ul class="list-unstyled navbar__sub-list js-sub-list">
                                 <li>
-                                    <a href="login.html">
+                                    <a href="login.php">
                                         <i class="fas fa-sign-in-alt"></i>Login</a>
                                 </li>
                                 <li>
-                                    <a href="register.html">
+                                    <a href="register.php">
                                         <i class="fas fa-user"></i>Register</a>
                                 </li>
                                 <li>
-                                    <a href="forget-pass.html">
+                                    <a href="forget-pass.php">
                                         <i class="fas fa-unlock-alt"></i>Forget Password</a>
                                 </li>
                             </ul>
@@ -147,47 +147,47 @@
                             </a>
                             <ul class="list-unstyled navbar__sub-list js-sub-list">
                                 <li>
-                                    <a href="button.html">
+                                    <a href="button.php">
                                         <i class="fab fa-flickr"></i>Button</a>
                                 </li>
                                 <li>
-                                    <a href="badge.html">
+                                    <a href="badge.php">
                                         <i class="fas fa-comment-alt"></i>Badges</a>
                                 </li>
                                 <li>
-                                    <a href="tab.html">
+                                    <a href="tab.php">
                                         <i class="far fa-window-maximize"></i>Tabs</a>
                                 </li>
                                 <li>
-                                    <a href="card.html">
+                                    <a href="card.php">
                                         <i class="far fa-id-card"></i>Cards</a>
                                 </li>
                                 <li>
-                                    <a href="alert.html">
+                                    <a href="alert.php">
                                         <i class="far fa-bell"></i>Alerts</a>
                                 </li>
                                 <li>
-                                    <a href="progress-bar.html">
+                                    <a href="progress-bar.php">
                                         <i class="fas fa-tasks"></i>Progress Bars</a>
                                 </li>
                                 <li>
-                                    <a href="modal.html">
+                                    <a href="modal.php">
                                         <i class="far fa-window-restore"></i>Modals</a>
                                 </li>
                                 <li>
-                                    <a href="switch.html">
+                                    <a href="switch.php">
                                         <i class="fas fa-toggle-on"></i>Switchs</a>
                                 </li>
                                 <li>
-                                    <a href="grid.html">
+                                    <a href="grid.php">
                                         <i class="fas fa-th-large"></i>Grids</a>
                                 </li>
                                 <li>
-                                    <a href="fontawesome.html">
+                                    <a href="fontawesome.php">
                                         <i class="fab fa-font-awesome"></i>FontAwesome</a>
                                 </li>
                                 <li>
-                                    <a href="typo.html">
+                                    <a href="typo.php">
                                         <i class="fas fa-font"></i>Typography</a>
                                 </li>
                             </ul>
@@ -327,25 +327,25 @@
                                 </a>
                                 <ul class="list-unstyled navbar__sub-list js-sub-list">
                                     <li>
-                                        <a href="index.html">
+                                        <a href="index.php">
                                             <i class="fas fa-tachometer-alt"></i>Dashboard 1</a>
                                     </li>
                                     <li>
-                                        <a href="index2.html">
+                                        <a href="index2.php">
                                             <i class="fas fa-tachometer-alt"></i>Dashboard 2</a>
                                     </li>
                                     <li>
-                                        <a href="index3.html">
+                                        <a href="index3.php">
                                             <i class="fas fa-tachometer-alt"></i>Dashboard 3</a>
                                     </li>
                                     <li>
-                                        <a href="index4.html">
+                                        <a href="index4.php">
                                             <i class="fas fa-tachometer-alt"></i>Dashboard 4</a>
                                     </li>
                                 </ul>
                             </li>
                             <li>
-                                <a href="inbox.html">
+                                <a href="inbox.php">
                                     <i class="fas fa-chart-bar"></i>Inbox</a>
                                 <span class="inbox-num">3</span>
                             </li>
@@ -362,11 +362,11 @@
                                 </a>
                                 <ul class="list-unstyled navbar__sub-list js-sub-list">
                                     <li>
-                                        <a href="table.html">
+                                        <a href="table.php">
                                             <i class="fas fa-table"></i>Tables</a>
                                     </li>
                                     <li>
-                                        <a href="form.html">
+                                        <a href="form.php">
                                             <i class="far fa-check-square"></i>Forms</a>
                                     </li>
                                     <li>
@@ -374,7 +374,7 @@
                                             <i class="fas fa-calendar-alt"></i>Calendar</a>
                                     </li>
                                     <li>
-                                        <a href="map.html">
+                                        <a href="map.php">
                                             <i class="fas fa-map-marker-alt"></i>Maps</a>
                                     </li>
                                 </ul>
@@ -388,15 +388,15 @@
                                 </a>
                                 <ul class="list-unstyled navbar__sub-list js-sub-list">
                                     <li>
-                                        <a href="login.html">
+                                        <a href="login.php">
                                             <i class="fas fa-sign-in-alt"></i>Login</a>
                                     </li>
                                     <li>
-                                        <a href="register.html">
+                                        <a href="register.php">
                                             <i class="fas fa-user"></i>Register</a>
                                     </li>
                                     <li>
-                                        <a href="forget-pass.html">
+                                        <a href="forget-pass.php">
                                             <i class="fas fa-unlock-alt"></i>Forget Password</a>
                                     </li>
                                 </ul>
@@ -410,47 +410,47 @@
                                 </a>
                                 <ul class="list-unstyled navbar__sub-list js-sub-list">
                                     <li>
-                                        <a href="button.html">
+                                        <a href="button.php">
                                             <i class="fab fa-flickr"></i>Button</a>
                                     </li>
                                     <li>
-                                        <a href="badge.html">
+                                        <a href="badge.php">
                                             <i class="fas fa-comment-alt"></i>Badges</a>
                                     </li>
                                     <li>
-                                        <a href="tab.html">
+                                        <a href="tab.php">
                                             <i class="far fa-window-maximize"></i>Tabs</a>
                                     </li>
                                     <li>
-                                        <a href="card.html">
+                                        <a href="card.php">
                                             <i class="far fa-id-card"></i>Cards</a>
                                     </li>
                                     <li>
-                                        <a href="alert.html">
+                                        <a href="alert.php">
                                             <i class="far fa-bell"></i>Alerts</a>
                                     </li>
                                     <li>
-                                        <a href="progress-bar.html">
+                                        <a href="progress-bar.php">
                                             <i class="fas fa-tasks"></i>Progress Bars</a>
                                     </li>
                                     <li>
-                                        <a href="modal.html">
+                                        <a href="modal.php">
                                             <i class="far fa-window-restore"></i>Modals</a>
                                     </li>
                                     <li>
-                                        <a href="switch.html">
+                                        <a href="switch.php">
                                             <i class="fas fa-toggle-on"></i>Switchs</a>
                                     </li>
                                     <li>
-                                        <a href="grid.html">
+                                        <a href="grid.php">
                                             <i class="fas fa-th-large"></i>Grids</a>
                                     </li>
                                     <li>
-                                        <a href="fontawesome.html">
+                                        <a href="fontawesome.php">
                                             <i class="fab fa-font-awesome"></i>FontAwesome</a>
                                     </li>
                                     <li>
-                                        <a href="typo.html">
+                                        <a href="typo.php">
                                             <i class="fas fa-font"></i>Typography</a>
                                     </li>
                                 </ul>

@@ -10,12 +10,12 @@
     <meta name="keywords" content="au theme template">
 
     <!-- Title Page-->
-    <title>Card</title>
+    <title>Charts</title>
 
     <!-- Fontfaces CSS-->
     <link href="css/font-face.css" rel="stylesheet" media="all">
-    <link href="vendor/font-awesome-5/css/fontawesome-all.min.css" rel="stylesheet" media="all">
     <link href="vendor/font-awesome-4.7/css/font-awesome.min.css" rel="stylesheet" media="all">
+    <link href="vendor/font-awesome-5/css/fontawesome-all.min.css" rel="stylesheet" media="all">
     <link href="vendor/mdi-font/css/material-design-iconic-font.min.css" rel="stylesheet" media="all">
 
     <!-- Bootstrap CSS-->
@@ -42,7 +42,7 @@
             <div class="header-mobile__bar">
                 <div class="container-fluid">
                     <div class="header-mobile-inner">
-                        <a class="logo" href="index.html">
+                        <a class="logo" href="index.php">
                             <img src="images/icon/logo.png" alt="CoolAdmin" />
                         </a>
                         <button class="hamburger hamburger--slider" type="button">
@@ -61,29 +61,29 @@
                                 <i class="fas fa-tachometer-alt"></i>Dashboard</a>
                             <ul class="navbar-mobile-sub__list list-unstyled js-sub-list">
                                 <li>
-                                    <a href="index.html">Dashboard 1</a>
+                                    <a href="index.php">Dashboard 1</a>
                                 </li>
                                 <li>
-                                    <a href="index2.html">Dashboard 2</a>
+                                    <a href="index2.php">Dashboard 2</a>
                                 </li>
                                 <li>
-                                    <a href="index3.html">Dashboard 3</a>
+                                    <a href="index3.php">Dashboard 3</a>
                                 </li>
                                 <li>
-                                    <a href="index4.html">Dashboard 4</a>
+                                    <a href="index4.php">Dashboard 4</a>
                                 </li>
                             </ul>
                         </li>
                         <li>
-                            <a href="chart.html">
+                            <a href="chart.php">
                                 <i class="fas fa-chart-bar"></i>Charts</a>
                         </li>
                         <li>
-                            <a href="table.html">
+                            <a href="table.php">
                                 <i class="fas fa-table"></i>Tables</a>
                         </li>
                         <li>
-                            <a href="form.html">
+                            <a href="form.php">
                                 <i class="far fa-check-square"></i>Forms</a>
                         </li>
                         <li>
@@ -91,7 +91,7 @@
                                 <i class="fas fa-calendar-alt"></i>Calendar</a>
                         </li>
                         <li>
-                            <a href="map.html">
+                            <a href="map.php">
                                 <i class="fas fa-map-marker-alt"></i>Maps</a>
                         </li>
                         <li class="has-sub">
@@ -99,13 +99,13 @@
                                 <i class="fas fa-copy"></i>Pages</a>
                             <ul class="navbar-mobile-sub__list list-unstyled js-sub-list">
                                 <li>
-                                    <a href="login.html">Login</a>
+                                    <a href="login.php">Login</a>
                                 </li>
                                 <li>
-                                    <a href="register.html">Register</a>
+                                    <a href="register.php">Register</a>
                                 </li>
                                 <li>
-                                    <a href="forget-pass.html">Forget Password</a>
+                                    <a href="forget-pass.php">Forget Password</a>
                                 </li>
                             </ul>
                         </li>
@@ -114,37 +114,37 @@
                                 <i class="fas fa-desktop"></i>UI Elements</a>
                             <ul class="navbar-mobile-sub__list list-unstyled js-sub-list">
                                 <li>
-                                    <a href="button.html">Button</a>
+                                    <a href="button.php">Button</a>
                                 </li>
                                 <li>
-                                    <a href="badge.html">Badges</a>
+                                    <a href="badge.php">Badges</a>
                                 </li>
                                 <li>
-                                    <a href="tab.html">Tabs</a>
+                                    <a href="tab.php">Tabs</a>
                                 </li>
                                 <li>
-                                    <a href="card.html">Cards</a>
+                                    <a href="card.php">Cards</a>
                                 </li>
                                 <li>
-                                    <a href="alert.html">Alerts</a>
+                                    <a href="alert.php">Alerts</a>
                                 </li>
                                 <li>
-                                    <a href="progress-bar.html">Progress Bars</a>
+                                    <a href="progress-bar.php">Progress Bars</a>
                                 </li>
                                 <li>
-                                    <a href="modal.html">Modals</a>
+                                    <a href="modal.php">Modals</a>
                                 </li>
                                 <li>
-                                    <a href="switch.html">Switchs</a>
+                                    <a href="switch.php">Switchs</a>
                                 </li>
                                 <li>
-                                    <a href="grid.html">Grids</a>
+                                    <a href="grid.php">Grids</a>
                                 </li>
                                 <li>
-                                    <a href="fontawesome.html">Fontawesome Icon</a>
+                                    <a href="fontawesome.php">Fontawesome Icon</a>
                                 </li>
                                 <li>
-                                    <a href="typo.html">Typography</a>
+                                    <a href="typo.php">Typography</a>
                                 </li>
                             </ul>
                         </li>
@@ -169,29 +169,29 @@
                                 <i class="fas fa-tachometer-alt"></i>Dashboard</a>
                             <ul class="list-unstyled navbar__sub-list js-sub-list">
                                 <li>
-                                    <a href="index.html">Dashboard 1</a>
+                                    <a href="index.php">Dashboard 1</a>
                                 </li>
                                 <li>
-                                    <a href="index2.html">Dashboard 2</a>
+                                    <a href="index2.php">Dashboard 2</a>
                                 </li>
                                 <li>
-                                    <a href="index3.html">Dashboard 3</a>
+                                    <a href="index3.php">Dashboard 3</a>
                                 </li>
                                 <li>
-                                    <a href="index4.html">Dashboard 4</a>
+                                    <a href="index4.php">Dashboard 4</a>
                                 </li>
                             </ul>
                         </li>
-                        <li>
-                            <a href="chart.html">
+                        <li class="active">
+                            <a href="chart.php">
                                 <i class="fas fa-chart-bar"></i>Charts</a>
                         </li>
                         <li>
-                            <a href="table.html">
+                            <a href="table.php">
                                 <i class="fas fa-table"></i>Tables</a>
                         </li>
                         <li>
-                            <a href="form.html">
+                            <a href="form.php">
                                 <i class="far fa-check-square"></i>Forms</a>
                         </li>
                         <li>
@@ -199,7 +199,7 @@
                                 <i class="fas fa-calendar-alt"></i>Calendar</a>
                         </li>
                         <li>
-                            <a href="map.html">
+                            <a href="map.php">
                                 <i class="fas fa-map-marker-alt"></i>Maps</a>
                         </li>
                         <li class="has-sub">
@@ -207,52 +207,52 @@
                                 <i class="fas fa-copy"></i>Pages</a>
                             <ul class="list-unstyled navbar__sub-list js-sub-list">
                                 <li>
-                                    <a href="login.html">Login</a>
+                                    <a href="login.php">Login</a>
                                 </li>
                                 <li>
-                                    <a href="register.html">Register</a>
+                                    <a href="register.php">Register</a>
                                 </li>
                                 <li>
-                                    <a href="forget-pass.html">Forget Password</a>
+                                    <a href="forget-pass.php">Forget Password</a>
                                 </li>
                             </ul>
                         </li>
-                        <li class="active has-sub">
+                        <li class="has-sub">
                             <a class="js-arrow" href="#">
                                 <i class="fas fa-desktop"></i>UI Elements</a>
                             <ul class="list-unstyled navbar__sub-list js-sub-list">
                                 <li>
-                                    <a href="button.html">Button</a>
+                                    <a href="button.php">Button</a>
                                 </li>
                                 <li>
-                                    <a href="badge.html">Badges</a>
+                                    <a href="badge.php">Badges</a>
                                 </li>
                                 <li>
-                                    <a href="tab.html">Tabs</a>
+                                    <a href="tab.php">Tabs</a>
                                 </li>
                                 <li>
-                                    <a href="card.html">Cards</a>
+                                    <a href="card.php">Cards</a>
                                 </li>
                                 <li>
-                                    <a href="alert.html">Alerts</a>
+                                    <a href="alert.php">Alerts</a>
                                 </li>
                                 <li>
-                                    <a href="progress-bar.html">Progress Bars</a>
+                                    <a href="progress-bar.php">Progress Bars</a>
                                 </li>
                                 <li>
-                                    <a href="modal.html">Modals</a>
+                                    <a href="modal.php">Modals</a>
                                 </li>
                                 <li>
-                                    <a href="switch.html">Switchs</a>
+                                    <a href="switch.php">Switchs</a>
                                 </li>
                                 <li>
-                                    <a href="grid.html">Grids</a>
+                                    <a href="grid.php">Grids</a>
                                 </li>
                                 <li>
-                                    <a href="fontawesome.html">Fontawesome Icon</a>
+                                    <a href="fontawesome.php">Fontawesome Icon</a>
                                 </li>
                                 <li>
-                                    <a href="typo.html">Typography</a>
+                                    <a href="typo.php">Typography</a>
                                 </li>
                             </ul>
                         </li>
@@ -436,368 +436,97 @@
                     </div>
                 </div>
             </header>
-            <!-- HEADER DESKTOP-->
+            <!-- END HEADER DESKTOP-->
 
             <!-- MAIN CONTENT-->
             <div class="main-content">
                 <div class="section__content section__content--p30">
                     <div class="container-fluid">
                         <div class="row">
-                            <div class="col-md-4">
-                                <div class="card">
-                                    <div class="card-header">
-                                        <strong class="card-title mb-3">Profile Card</strong>
-                                    </div>
-                                    <div class="card-body">
-                                        <div class="mx-auto d-block">
-                                            <img class="rounded-circle mx-auto d-block" src="images/icon/avatar-01.jpg" alt="Card image cap">
-                                            <h5 class="text-sm-center mt-2 mb-1">Steven Lee</h5>
-                                            <div class="location text-sm-center">
-                                                <i class="fa fa-map-marker"></i> California, United States</div>
-                                        </div>
-                                        <hr>
-                                        <div class="card-text text-sm-center">
-                                            <a href="#">
-                                                <i class="fa fa-facebook pr-1"></i>
-                                            </a>
-                                            <a href="#">
-                                                <i class="fa fa-twitter pr-1"></i>
-                                            </a>
-                                            <a href="#">
-                                                <i class="fa fa-linkedin pr-1"></i>
-                                            </a>
-                                            <a href="#">
-                                                <i class="fa fa-pinterest pr-1"></i>
-                                            </a>
-                                        </div>
+                            <div class="col-lg-6">
+                                <div class="au-card m-b-30">
+                                    <div class="au-card-inner">
+                                        <h3 class="title-2 m-b-40">Yearly Sales</h3>
+                                        <canvas id="sales-chart"></canvas>
                                     </div>
                                 </div>
                             </div>
-
-
-                            <div class="col-md-4">
-                                <div class="card">
-                                    <div class="card-body">
-                                        <div class="mx-auto d-block">
-                                            <img class="rounded-circle mx-auto d-block" src="images/icon/avatar-01.jpg" alt="Card image cap">
-                                            <h5 class="text-sm-center mt-2 mb-1">Steven Lee</h5>
-                                            <div class="location text-sm-center">
-                                                <i class="fa fa-map-marker"></i> California, United States</div>
-                                        </div>
-                                        <hr>
-                                        <div class="card-text text-sm-center">
-                                            <a href="#">
-                                                <i class="fa fa-facebook pr-1"></i>
-                                            </a>
-                                            <a href="#">
-                                                <i class="fa fa-twitter pr-1"></i>
-                                            </a>
-                                            <a href="#">
-                                                <i class="fa fa-linkedin pr-1"></i>
-                                            </a>
-                                            <a href="#">
-                                                <i class="fa fa-pinterest pr-1"></i>
-                                            </a>
-                                        </div>
-                                    </div>
-                                    <div class="card-footer">
-                                        <strong class="card-title mb-3">Profile Card</strong>
+                            <div class="col-lg-6">
+                                <div class="au-card m-b-30">
+                                    <div class="au-card-inner">
+                                        <h3 class="title-2 m-b-40">Team Commits</h3>
+                                        <canvas id="team-chart"></canvas>
                                     </div>
                                 </div>
                             </div>
-
-
-
-                            <div class="col-md-4">
-                                <div class="card">
-                                    <div class="card-header">
-                                        <i class="fa fa-user"></i>
-                                        <strong class="card-title pl-2">Profile Card</strong>
-                                    </div>
-                                    <div class="card-body">
-                                        <div class="mx-auto d-block">
-                                            <img class="rounded-circle mx-auto d-block" src="images/icon/avatar-01.jpg" alt="Card image cap">
-                                            <h5 class="text-sm-center mt-2 mb-1">Steven Lee</h5>
-                                            <div class="location text-sm-center">
-                                                <i class="fa fa-map-marker"></i> California, United States</div>
-                                        </div>
-                                        <hr>
-                                        <div class="card-text text-sm-center">
-                                            <a href="#">
-                                                <i class="fa fa-facebook pr-1"></i>
-                                            </a>
-                                            <a href="#">
-                                                <i class="fa fa-twitter pr-1"></i>
-                                            </a>
-                                            <a href="#">
-                                                <i class="fa fa-linkedin pr-1"></i>
-                                            </a>
-                                            <a href="#">
-                                                <i class="fa fa-pinterest pr-1"></i>
-                                            </a>
-                                        </div>
+                            <div class="col-lg-6">
+                                <div class="au-card m-b-30">
+                                    <div class="au-card-inner">
+                                        <h3 class="title-2 m-b-40">Bar chart</h3>
+                                        <canvas id="barChart"></canvas>
                                     </div>
                                 </div>
                             </div>
-
-
-                            <div class="col-md-4">
-                                <aside class="profile-nav alt">
-                                    <section class="card">
-                                        <div class="card-header user-header alt bg-dark">
-                                            <div class="media">
-                                                <a href="#">
-                                                    <img class="align-self-center rounded-circle mr-3" style="width:85px; height:85px;" alt="" src="images/icon/avatar-01.jpg">
-                                                </a>
-                                                <div class="media-body">
-                                                    <h2 class="text-light display-6">Jim Doe</h2>
-                                                    <p>Project Manager</p>
-                                                </div>
-                                            </div>
-                                        </div>
-
-
-                                        <ul class="list-group list-group-flush">
-                                            <li class="list-group-item">
-                                                <a href="#">
-                                                    <i class="fa fa-envelope-o"></i> Mail Inbox
-                                                    <span class="badge badge-primary pull-right">10</span>
-                                                </a>
-                                            </li>
-                                            <li class="list-group-item">
-                                                <a href="#">
-                                                    <i class="fa fa-tasks"></i> Recent Activity
-                                                    <span class="badge badge-danger pull-right">15</span>
-                                                </a>
-                                            </li>
-                                            <li class="list-group-item">
-                                                <a href="#">
-                                                    <i class="fa fa-bell-o"></i> Notification
-                                                    <span class="badge badge-success pull-right">11</span>
-                                                </a>
-                                            </li>
-                                            <li class="list-group-item">
-                                                <a href="#">
-                                                    <i class="fa fa-comments-o"></i> Message
-                                                    <span class="badge badge-warning pull-right r-activity">03</span>
-                                                </a>
-                                            </li>
-                                        </ul>
-
-                                    </section>
-                                </aside>
-                            </div>
-
-
-                            <div class="col-md-4">
-                                <div class="card">
-                                    <div class="card-header">
-                                        <strong class="card-title">Card with switch</strong>
-                                    </div>
-                                    <div class="card-body">
-                                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
-                                            content.
-                                        </p>
+                            <div class="col-lg-6">
+                                <div class="au-card m-b-30">
+                                    <div class="au-card-inner">
+                                        <h3 class="title-2 m-b-40">Rader chart</h3>
+                                        <canvas id="radarChart"></canvas>
                                     </div>
                                 </div>
                             </div>
-
-                            <div class="col-md-4">
-                                <div class="card">
-                                    <div class="card-header">
-                                        <strong class="card-title">Card with Label
-                                            <small>
-                                                <span class="badge badge-success float-right mt-1">Success</span>
-                                            </small>
-                                        </strong>
-                                    </div>
-                                    <div class="card-body">
-                                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
-                                            content.
-                                        </p>
+                            <div class="col-lg-6">
+                                <div class="au-card m-b-30">
+                                    <div class="au-card-inner">
+                                        <h3 class="title-2 m-b-40">Line Chart</h3>
+                                        <canvas id="lineChart"></canvas>
                                     </div>
                                 </div>
                             </div>
-
-                            <div class="col-md-4">
-                                <div class="card">
-                                    <div class="card-header">
-                                        <strong class="card-title">Card with Label
-                                            <small>
-                                                <span class="badge badge-danger float-right mt-1">49</span>
-                                            </small>
-                                        </strong>
-                                    </div>
-                                    <div class="card-body">
-                                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
-                                            content.
-                                        </p>
+                            <div class="col-lg-6">
+                                <div class="au-card m-b-30">
+                                    <div class="au-card-inner">
+                                        <h3 class="title-2 m-b-40">Doughut Chart</h3>
+                                        <canvas id="doughutChart"></canvas>
                                     </div>
                                 </div>
                             </div>
-
-
-
-                            <div class="col-md-4">
-                                <div class="card border border-primary">
-                                    <div class="card-header">
-                                        <strong class="card-title">Card Outline</strong>
-                                    </div>
-                                    <div class="card-body">
-                                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
-                                            content.
-                                        </p>
+                            <div class="col-lg-6">
+                                <div class="au-card m-b-30">
+                                    <div class="au-card-inner">
+                                        <h3 class="title-2 m-b-40">Pie Chart</h3>
+                                        <canvas id="pieChart"></canvas>
                                     </div>
                                 </div>
                             </div>
-
-
-                            <div class="col-md-4">
-                                <div class="card border border-secondary">
-                                    <div class="card-header">
-                                        <strong class="card-title">Card Outline</strong>
-                                    </div>
-                                    <div class="card-body">
-                                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
-                                            content.
-                                        </p>
+                            <div class="col-lg-6">
+                                <div class="au-card m-b-30">
+                                    <div class="au-card-inner">
+                                        <h3 class="title-2 m-b-40">Polar Chart</h3>
+                                        <canvas id="polarChart"></canvas>
                                     </div>
                                 </div>
                             </div>
-
-
-                            <div class="col-md-4">
-                                <div class="card border border-success">
-                                    <div class="card-header">
-                                        <strong class="card-title">Card Outline</strong>
-                                    </div>
-                                    <div class="card-body">
-                                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
-                                            content.
-                                        </p>
+                            <div class="col-lg-6">
+                                <div class="au-card m-b-30">
+                                    <div class="au-card-inner">
+                                        <h3 class="title-2 m-b-40">Single Bar Chart</h3>
+                                        <canvas id="singelBarChart"></canvas>
                                     </div>
                                 </div>
                             </div>
-
-
-
-                            <div class="col-md-4">
-                                <div class="card bg-danger">
-                                    <div class="card-body">
-                                        <blockquote class="blockquote mb-0">
-                                            <p class="text-light">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat
-                                                a ante.</p>
-                                            <footer class="blockquote-footer text-light">Someone famous in
-                                                <cite title="Source Title">Source Title</cite>
-                                            </footer>
-                                        </blockquote>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="col-md-4">
-                                <div class="card bg-warning">
-                                    <div class="card-body">
-                                        <blockquote class="blockquote mb-0 text-light">
-                                            <p class="text-light">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat
-                                                a ante.</p>
-                                            <footer class="blockquote-footer text-light">Someone famous in
-                                                <cite title="Source Title">Source Title</cite>
-                                            </footer>
-                                        </blockquote>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="col-md-4">
-                                <div class="card bg-primary">
-                                    <div class="card-body">
-                                        <blockquote class="blockquote mb-0 text-light">
-                                            <p class="text-light">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat
-                                                a ante.</p>
-                                            <footer class="blockquote-footer text-light">Someone famous in
-                                                <cite title="Source Title">Source Title</cite>
-                                            </footer>
-                                        </blockquote>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="col-md-4">
-                                <div class="card">
-                                    <div class="card-header bg-secondary">
-                                        <strong class="card-title text-light">Card Header</strong>
-                                    </div>
-                                    <div class="card-body text-white bg-primary">
-                                        <p class="card-text text-light">Some quick example text to build on the card title and make up the bulk of the card's
-                                            content.
-                                        </p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-md-4">
-                                <div class="card">
-                                    <div class="card-header bg-dark">
-                                        <strong class="card-title text-light">Card Header</strong>
-                                    </div>
-                                    <div class="card-body text-white bg-danger">
-                                        <p class="card-text text-light">Some quick example text to build on the card title and make up the bulk of the card's
-                                            content.
-                                        </p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-md-4">
-                                <div class="card">
-                                    <div class="card-header bg-success">
-                                        <strong class="card-title text-light">Card Header</strong>
-                                    </div>
-                                    <div class="card-body text-white bg-warning">
-                                        <p class="card-text text-light">Some quick example text to build on the card title and make up the bulk of the card's
-                                            content.
-                                        </p>
-                                    </div>
-                                </div>
-                            </div>
-
-
-                            <div class="col-md-4">
-                                <div class="card">
-                                    <img class="card-img-top" src="images/bg-title-01.jpg" alt="Card image cap">
-                                    <div class="card-body">
-                                        <h4 class="card-title mb-3">Card Image Title</h4>
-                                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
-                                            content.
-                                        </p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-md-4">
-                                <div class="card">
-                                    <img class="card-img-top" src="images/bg-title-01.jpg" alt="Card image cap">
-                                    <div class="card-body">
-                                        <h4 class="card-title mb-3">Card Image Title</h4>
-                                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
-                                            content.
-                                        </p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-md-4">
-                                <div class="card">
-                                    <img class="card-img-top" src="images/bg-title-01.jpg" alt="Card image cap">
-                                    <div class="card-body">
-                                        <h4 class="card-title mb-3">Card Image Title</h4>
-                                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
-                                            content.
-                                        </p>
-                                    </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-12">
+                                <div class="copyright">
+                                    <p>Copyright © 2018 Colorlib. All rights reserved. Template by <a href="https://colorlib.com">Colorlib</a>.</p>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
+            <!-- END MAIN CONTENT-->
         </div>
         <!-- END PAGE CONTAINER-->
 
