@@ -13,12 +13,12 @@
                                 </li>
                         </li>
                         <li>
-                            <a href="chart.php">
-                                <i class="fas fa-chart-bar"></i>Charts</a>
+                            <a href="user_add.php">
+                                <i class="fas fa-chart-bar"></i>Add users</a>
                         </li>
                         <li>
-                            <a href="table.php">
-                                <i class="fas fa-table"></i>Tables</a>
+                            <a href="users.php">
+                                <i class="fas fa-users"></i>Users</a>
                         </li>
                         <li>
                             <a href="form.php">
