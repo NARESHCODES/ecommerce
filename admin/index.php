@@ -1,4 +1,16 @@
-<?php include_once "../config.php"; ?>
+<?php
+include_once "../config.php"; 
+//importing the classes using namespaces instead of include for autoloading
+use Lib\Models\User;
+//fully qualified namespace and class
+$user =new User();
+if(!$user->isAdminLogin()){
+    $_SESSION['error']= 'your session has been expired or you have not logged in yet';
+    header('Location:login.php');
+    die;
+}
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 
