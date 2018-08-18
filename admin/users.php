@@ -39,7 +39,6 @@ $users=$user->all();
                                             <tr>
                                                 <th>ID</th>
                                                 <th>Full Name</th>
-                                                <th>Photo</th>
                                                 <th>Email</th>
                                                 <th>Username</th>
                                                 <th>Status</th>
@@ -51,12 +50,16 @@ $users=$user->all();
                                         		<?php $counter=1;?>
                                         		<?php foreach ($users as $user):?>
                                             <tr>
-                                                <td>1</td>
-                                                <td>Naresh</td>
-                                                <td><img src=""></td>
-                                                <td>nareshcodes@gmail.com</td>
-                                                <td>Nareshcodes</td>
-                                                <td class=""><span class="badge badge-success">Active</span></td>
+                                                <td><?php echo $counter;?></td>
+                                                <td><?php echo $user['full_name'];?></td>
+                                                <td><?php echo $user['email'];?></td>
+                                                <td><?php echo $user['username'];?></td>
+                                                <td class="">
+                                                	<?php if($user['status']==1):?><span class="badge badge-success">Active</span></td>
+                                                	<?php else:?>
+                                                	<span class="badge badge-danger">Inactive</span>
+                                                <?php endif;?>
+                                                </td>
                                                 <td class="text-left"><a href="">Edit</a><br><a href="">Delete</a></td>
                                             </tr>
                                             <?php $counter++;?>
