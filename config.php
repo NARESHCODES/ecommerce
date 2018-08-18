@@ -2,22 +2,15 @@
 session_start();
 
 /**
-*site configuration
-*/
-define('_SITE_NAME', 'Smartshop');
-define('_ROOT_PATH', __DIR__);
-define('_ADMIN_PATH', _ROOT_PATH."/admin");
+ * Site Configuration
+ */
+define('_SITE_NAME',        'SmartShop');
 
-define('_ROOT_URL','http://'.$_SERVER['HTTP_HOST']);
-define('_ADMIN_URL',_ROOT_URL."/admin");
+define('_ROOT_PATH',        __DIR__);
+define('_ADMIN_PATH',        _ROOT_PATH . "/admin");
 
-/**
-/*Database configuration
-*/
-define('_DATABASE_HOST', 'localhost');
-define('_DATABASE_USER', 'root');
-define('_DATABASE_PASSWORD','');
-define('_DATABASE_NAME','ecommerce');
+define('_ROOT_URL',         'http://' . $_SERVER['HTTP_HOST']);
+define('_ADMIN_URL',         _ROOT_URL . "/admin");
 
 /**
  * Loads the classes automatically
@@ -31,3 +24,27 @@ function __autoload($className) {
         include $classFileName;
     }
 };
+
+/**
+ * Database configuration
+ */
+define('_DATABASE_HOST',        'localhost');
+define('_DATABASE_USER',        'root');
+define('_DATABASE_PASSWORD',    '');
+define('_DATABASE_NAME',        'ecommerce');
+
+/**
+*check if the user is logged in or not
+*/
+if(strpos($_SERVER['REQUEST_URI'],'admin')!==false){
+	$user= new \Lib\Models\User();
+	$currentpage=basename($_SERVER['SCRIPT_NAME']);
+	if($currentpage!=='login.php' && !$user->isAdminLogin()){
+		$_SESSION['error']="Your session has expired or you've not logged in yet,please login";
+		header('Location:login.php');
+		die;
+	}
+}
+
+
+

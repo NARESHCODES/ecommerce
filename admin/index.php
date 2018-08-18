@@ -5,7 +5,7 @@ use Lib\Models\User;
 //fully qualified namespace and class
 $user =new User();
 if(!$user->isAdminLogin()){
-    $_SESSION['error']= 'your session has been expired or you have not logged in yet';
+    $_SESSION['error']= 'your session has been expired or you have not logged in yet, please login';
     header('Location:login.php');
     die;
 }
