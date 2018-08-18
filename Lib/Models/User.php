@@ -1,7 +1,7 @@
 <?php
 
 namespace Lib\Models;
-
+use Lib\Core\errorException;
 use Lib\Core\Database;
 
 /**
@@ -17,11 +17,7 @@ class User extends Database{
      */
     protected $table = "users";
 
-    /**
-     * Gets all the users
-     */
-
-    /**
+      /**
      * @param $username
      * @param $password
      * @return bool
@@ -35,7 +31,7 @@ class User extends Database{
             $_SESSION['_admin_user'] = true;
             $row = $statement->fetch(\PDO::FETCH_ASSOC);
             if($row['status']==0){
-                throw new adminException("Your account has been suspended, please contact administrator");
+                throw new errorException("Your account has been suspended, please contact administrator");
             }
             $_SESSION['_admin_user']=true;
             $_SESSION['_user'] = $row;

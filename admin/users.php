@@ -1,4 +1,8 @@
-<?php include_once "../config.php"; ?>
+<?php 
+include_once "../config.php"; 
+$user=new \Lib\Models\User();
+$users=$user->all();
+?>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -43,61 +47,23 @@
                                             </tr>
                                         </thead>
                                         <tbody>
+                                        	<?php if(count($users)):?>
+                                        		<?php $counter=1;?>
+                                        		<?php foreach ($users as $user):?>
                                             <tr>
                                                 <td>1</td>
                                                 <td>Naresh</td>
                                                 <td><img src=""></td>
                                                 <td>nareshcodes@gmail.com</td>
                                                 <td>Nareshcodes</td>
-                                                <td class="process">Active</td>
+                                                <td class=""><span class="badge badge-success">Active</span></td>
                                                 <td class="text-left"><a href="">Edit</a><br><a href="">Delete</a></td>
                                             </tr>
-                                            <tr>
-                                                <td>2</td>
-                                                <td>Naresh</td>
-                                                <td><img src=""></td>
-                                                <td>nareshcodes@gmail.com</td>
-                                                <td>Nareshcodes</td>
-                                                <td class="process">Active</td>
-                                                <td class="text-left"><a href="">Edit</a><br><a href="">Delete</a></td>
-                                            </tr>
-                                            <tr>
-                                                <td>3</td>
-                                                <td>Naresh</td>
-                                                <td><img src=""></td>
-                                                <td>nareshcodes@gmail.com</td>
-                                                <td>Nareshcodes</td>
-                                                <td class="process">Active</td>
-                                                <td class="text-left"><a href="">Edit</a><br><a href="">Delete</a></td>
-                                            </tr>
-                                           <tr>
-                                                <td>4</td>
-                                                <td>Naresh</td>
-                                                <td><img src=""></td>
-                                                <td>nareshcodes@gmail.com</td>
-                                                <td>Nareshcodes</td>
-                                                <td class="process">Active</td>
-                                                <td class="text-left"><a href="">Edit</a><br><a href="">Delete</a></td>
-                                            </tr>
-                                            <tr>
-                                                <td>5</td>
-                                                <td>Naresh</td>
-                                                <td><img src=""></td>
-                                                <td>nareshcodes@gmail.com</td>
-                                                <td>Nareshcodes</td>
-                                                <td class="process">Active</td>
-                                                <td class="text-left"><a href="">Edit</a><br><a href="">Delete</a></td>
-                                            </tr>
-                                            <tr>
-                                                <td>6</td>
-                                                <td>Naresh</td>
-                                                <td><img src=""></td>
-                                                <td>nareshcodes@gmail.com</td>
-                                                <td>Nareshcodes</td>
-                                                <td class="denied">Inactive</td>
-                                                <td class="text-left"><a href="user_add.php">Edit</a><br><a href="">Delete</a></td>
-                                            </tr>
-                                            
+                                            <?php $counter++;?>
+                                        <?php endforeach;?>
+                                            <?php else:?>
+                                            	<p>no data found</p>
+  											<?php endif;?>
                                         </tbody>
                                     </table>
                                 </div>
