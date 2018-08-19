@@ -26,9 +26,6 @@ $users=$user->all();
             <!-- HEADER DESKTOP-->
 
             <!-- MAIN CONTENT-->
-            <script type="text/javascript">
-                alert(typeof jQuery);
-            </script>
             <div class="main-content">
                 <div class="section__content section__content--p30">
                     <div class="container-fluid">
@@ -40,7 +37,7 @@ $users=$user->all();
                                         <thead>
                                             <tr>
                                                 <th>ID</th>
-                                                <th>Full Name</th>
+                                                <th>Name</th>
                                                 <th>Email</th>
                                                 <th>Username</th>
                                                 <th>Last login</th>
@@ -65,7 +62,23 @@ $users=$user->all();
                                                 	<span class="badge badge-danger">Inactive</span>
                                                 <?php endif;?>
                                                 </td>
-                                                <td class="text-left"><a href="./user_edit.php?id=<?php echo $user['id'];?>">Edit</a><br><a href="hellow orld" id="delete_user">Delete</a></td>
+                                                <td>
+                                                    <a href="./user_edit.php?id=<?php echo $user['id'];?>" class="badge badge-info">Edit</a>
+
+                                                    <span>
+                                                    <a href="" id="delete_user" class="badge badge-warning">Delete</a>
+                                                    </span>
+                                                    <script type="text/javascript">
+                                                        $('#delete_user').click(function(){
+                                                            if(confirm('Do you want to delete this user?')==true){
+                                                                $(this).attr('href',"./user_delete.php?id=<?php echo $user['id']; ?>");
+                                                        }else{
+                                                           return false;
+                                                        }
+                                                    });
+                                                        
+                                                    </script>
+                                                </td>
                                             </tr>
                                             <?php $counter++;?>
                                         <?php endforeach;?>

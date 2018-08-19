@@ -33,6 +33,9 @@ class User extends Database{
             if($row['status']==0){
                 throw new errorException("Your account has been suspended, please contact administrator");
             }
+            $statement=$this->_connection->prepare("UPDATE $this->table SET last_login=? WHERE id=?");
+            $statement->execute([date('Y-m-d H:i:s'),$row['id']]);
+
             $_SESSION['_admin_user']=true;
             $_SESSION['_user'] = $row;
             return $row;

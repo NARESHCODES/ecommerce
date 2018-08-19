@@ -48,7 +48,7 @@ $needle=[
 		];
 foreach($needle as $value){
 if(strpos($haystack,$value)!==false){
-$_SESSION['error']="Your session has expired or you've not logged in yet,please login";
+$_SESSION['error']="Your session has expired or you've not logged in yet, please login!";
 }
 }
 /**
