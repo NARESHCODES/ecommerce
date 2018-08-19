@@ -9,7 +9,7 @@ $users=$user->all();
 <head>
    <?php include_once "includes/head.php";?>
 </head>
-<body class="animsition">
+<body>
     <div class="page-wrapper">
          <!-- HEADER MOBILE-->
         <?php include_once "includes/header_mobile.php"; ?>
@@ -27,7 +27,13 @@ $users=$user->all();
 
             <!-- MAIN CONTENT-->
             <div class="main-content">
+               
                 <div class="section__content section__content--p30">
+                     <?php if(isset($_SESSION['success'])) : ?>
+                    <div class="alert alert-success">
+                        <?php echo $_SESSION['success']; unset($_SESSION['success']); ?>
+                    </div>
+                <?php endif; ?>
                     <div class="container-fluid">
                         <div class="row m-t-30">
                             <div class="col-md-12">
@@ -63,21 +69,15 @@ $users=$user->all();
                                                 <?php endif;?>
                                                 </td>
                                                 <td>
-                                                    <a href="./user_edit.php?id=<?php echo $user['id'];?>" class="badge badge-info">Edit</a>
-
+                                                    <a href="./user_edit.php?id=<?php echo $user['id'];?>">Edit</a><br>
                                                     <span>
-                                                    <a href="" id="delete_user" class="badge badge-warning">Delete</a>
+                                                    <a onclick="if(!confirm('Do you really want to delete this user?')){
+                                                        return false;
+                                                    }else{
+                                                        return true;
+                                                    }" href="./user_delete.php?id=<?php echo $user['id'];?>">Delete</a>
                                                     </span>
-                                                    <script type="text/javascript">
-                                                        $('#delete_user').click(function(){
-                                                            if(confirm('Do you want to delete this user?')==true){
-                                                                $(this).attr('href',"./user_delete.php?id=<?php echo $user['id']; ?>");
-                                                        }else{
-                                                           return false;
-                                                        }
-                                                    });
-                                                        
-                                                    </script>
+                                                    
                                                 </td>
                                             </tr>
                                             <?php $counter++;?>

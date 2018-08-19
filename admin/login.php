@@ -22,7 +22,7 @@ if($_SERVER['REQUEST_METHOD'] === 'POST') {
     }
     die;
 }
-catch(\Lib\Core\adminException $Exception){
+catch(\Lib\Core\errorException $Exception){
     $_SESSION['error']=$Exception->getMessage();
     header('Location:login.php');
 }
@@ -44,7 +44,7 @@ catch(\Lib\Core\adminException $Exception){
                     <div class="login-content">
                         <div class="login-logo">
                            <a href="#">
-                                <img src="images/icon/logo.png" alt="CoolAdmin">
+                                <img src="images/icon/logo.png" alt="Nareshcodes">
                             </a>
                             
                             <p style="margin-top: 10px;">

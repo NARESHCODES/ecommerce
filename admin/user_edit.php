@@ -1,19 +1,38 @@
 <?php
 include_once "../config.php";
 
+$user = new \Lib\Models\User();
+
+$id = (int) $_GET['id'];
+$userInfo = $user->getSingle($id);
+
+if(!$userInfo) {
+    $_SESSION['error'] = "User with ID $id not found!";
+    header("Location: users.php");
+    die();
+}
 $error = null;
 if($_SERVER['REQUEST_METHOD'] === 'POST'){
     $user = new \Lib\Models\User();
 
-    try {
+    try { 
+
         $userPhotos = _ADMIN_PATH . "/uploads/users";
         $postData = $_POST;
-        if(is_uploaded_file($_FILES['photo_name']['tmp_name'])){
+        $postData['photo_name'] = $postData['photo_name_old'];
+        if(is_uploaded_file($_FILES['photo_name']['tmp_name'])) {
             $fileName = basename($_FILES['photo_name']['name']);
             move_uploaded_file($_FILES['photo_name']['tmp_name'], $userPhotos . "/" . $fileName);
             $postData['photo_name'] = $fileName;
+
+            /**
+             * Delete old file if the user has already
+             */
+            if(file_exists($userPhotos . "/" . $postData['photo_name_old'])) {
+                unlink($userPhotos . "/" . $postData['photo_name_old']);
+            }
         }
-        $user->create($postData);
+        $user->update($postData,$id);
         $_SESSION['success'] = "User <span style='color:red;'>".$_POST['username']."</span> has been added successfully!";
         header("Location: users.php");
         die();
@@ -60,14 +79,19 @@ if($_SERVER['REQUEST_METHOD'] === 'POST'){
                                     <div class="card-header">
                                         <strong>Add</strong> Users
                                     </div>
+                                     <?php if(isset($error)) : ?>
+                      <div class="alert alert-danger">
+                          <?php echo $error; ?>
+                      </div>
+                      <?php endif; ?>
                                     <div class="card-body card-block">
-                                        <form enctype="multipart/form-data" method="post" id="user_add" name="user_add" action="" class="form-horizontal">
+                                        <form enctype="multipart/form-data" method="post" id="user_edit" name="user_edit" action="" class="form-horizontal form-label-left">
                                         	<div class="row form-group">
                                                 <div class="col col-md-3">
                                                     <label for="full_name" class=" form-control-label">Full Name</label>
                                                 </div>
                                                 <div class="col-12 col-md-9">
-                                                    <input type="text" id="full_name" name="full_name" placeholder="Enter Full Name..." class="form-control" required="">
+                                                    <input value="<?php echo $userInfo['full_name']; ?>" type="text" id="full_name" name="full_name" class="form-control">
                                                 </div>
                                             </div>
 
@@ -76,7 +100,7 @@ if($_SERVER['REQUEST_METHOD'] === 'POST'){
                                                     <label for="email" class=" form-control-label">Email</label>
                                                 </div>
                                                 <div class="col-12 col-md-9">
-                                                    <input type="email" id="email" name="email" placeholder="Enter Email..." class="form-control" required="">
+                                                   <input value="<?php echo $userInfo['email']; ?>" type="text" id="email" name="email" class="form-control">
                                                 </div>
                                             </div>
 
@@ -85,7 +109,7 @@ if($_SERVER['REQUEST_METHOD'] === 'POST'){
                                                     <label for="username" class=" form-control-label">Username</label>
                                                 </div>
                                                 <div class="col-12 col-md-9">
-                                                    <input type="text" id="username" name="username" placeholder="Enter username..." class="form-control" required="">
+                                                    <input value="<?php echo $userInfo['username']; ?>" type="text" id="username" name="username" class="form-control">
                                                  </div>
                                             </div>
 
@@ -94,7 +118,7 @@ if($_SERVER['REQUEST_METHOD'] === 'POST'){
                                                     <label for="password" class=" form-control-label">Password</label>
                                                 </div>
                                                 <div class="col-12 col-md-9">
-                                                    <input type="password" id="password" name="password" placeholder="Enter password..." class="form-control" required="">
+                                                    <input type="password" minlength="5" autocomplete="off" id="password" name="password" placeholder="*****" class="form-control" required="">
                                                 </div>
                                             </div>
                                             <div class="row form-group">
@@ -104,10 +128,10 @@ if($_SERVER['REQUEST_METHOD'] === 'POST'){
                                                 </div>
                                                 <div class="col-12 col-md-9">
                                                     <label class="">
-                                                    <input type="radio" name="status" value="1" checked=""> &nbsp; Active &nbsp;
+                                                   <input type="radio"<?php echo $userInfo['status'] == 1 ? ' checked' : null; ?> name="status" value="1"> Active
                                                     </label>
                                                     <label class="">
-                                                    <input type="radio" name="status" value="0"> Inactive
+                                                   <input type="radio"<?php echo $userInfo['status'] == 0 ? ' checked' : null; ?> name="status" value="0"> Inactive
                                                     </label>
                                                 </div>
                                             </div>
@@ -116,7 +140,15 @@ if($_SERVER['REQUEST_METHOD'] === 'POST'){
                                                     <label class=" form-control-label">photo</label>
                                                 </div>
                                                 <div class="col-12 col-md-9">
+                                                    <input type="hidden" name="photo_name_old" value="<?php echo $userInfo['photo_name']; ?>">
+                                                    <?php if(!empty($userInfo['photo_name'])): ?>
+                                                        <p> <img width="200" src="<?php echo _ROOT_URL . "/ecommerce/admin/uploads/users/" . $userInfo['photo_name']; ?>" class="img-thumbnail">
+                                                        </p>
+                                                        <br>
+                                                    <?php endif; ?>
+                                                    <p>
                                                     <input type="file" id="photo_name" name="photo_name" placeholder="Upload photo..." >
+                                                </p>
                                                 </div>
                                             </div>
                                             <div class="card-footer">

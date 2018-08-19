@@ -1,5 +1,5 @@
 <?php
 namespace Lib\Core;
-class errorException extends \Exception(){
-
+class errorException extends \Exception
+{
 }

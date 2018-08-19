@@ -16,6 +16,18 @@ public function all(){
 	$statement->execute();
 	return $statement->fetchAll(\PDO::FETCH_ASSOC);
 }
+  public function getSingle($id) {
+        $sql = "SELECT * FROM $this->table WHERE id=?";
+        $stmt = $this->_connection->prepare($sql);
+        $stmt->execute([$id]);
 
-
+        return $stmt->fetch(\PDO::FETCH_ASSOC);
+    }
+    
+public function delete($id) {
+        $sql = "DELETE FROM $this->table WHERE id=?";
+        $statement = $this->_connection->prepare($sql);
+        $statement->execute([$id]);
+        return true;
+    }
 }
