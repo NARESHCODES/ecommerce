@@ -9,7 +9,6 @@ $users=$user->all();
 <head>
    <?php include_once "includes/head.php";?>
 </head>
-
 <body class="animsition">
     <div class="page-wrapper">
          <!-- HEADER MOBILE-->
@@ -27,6 +26,9 @@ $users=$user->all();
             <!-- HEADER DESKTOP-->
 
             <!-- MAIN CONTENT-->
+            <script type="text/javascript">
+                alert(typeof jQuery);
+            </script>
             <div class="main-content">
                 <div class="section__content section__content--p30">
                     <div class="container-fluid">
@@ -41,6 +43,7 @@ $users=$user->all();
                                                 <th>Full Name</th>
                                                 <th>Email</th>
                                                 <th>Username</th>
+                                                <th>Last login</th>
                                                 <th>Status</th>
                                                 <th>Edit</th>
                                             </tr>
@@ -54,13 +57,15 @@ $users=$user->all();
                                                 <td><?php echo $user['full_name'];?></td>
                                                 <td><?php echo $user['email'];?></td>
                                                 <td><?php echo $user['username'];?></td>
+                                                <td><?php echo !empty($user['last_login'])? $user['last_login']:'Never Logged in';?>
+                                                </td>
                                                 <td class="">
-                                                	<?php if($user['status']==1):?><span class="badge badge-success">Active</span></td>
+                                                	<?php if($user['status']==1):?><span class="badge badge-success">Active</span>
                                                 	<?php else:?>
                                                 	<span class="badge badge-danger">Inactive</span>
                                                 <?php endif;?>
                                                 </td>
-                                                <td class="text-left"><a href="">Edit</a><br><a href="">Delete</a></td>
+                                                <td class="text-left"><a href="./user_edit.php?id=<?php echo $user['id'];?>">Edit</a><br><a href="hellow orld" id="delete_user">Delete</a></td>
                                             </tr>
                                             <?php $counter++;?>
                                         <?php endforeach;?>

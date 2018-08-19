@@ -28,3 +28,4 @@
 
     <!-- Main CSS-->
     <link href="css/theme.css" rel="stylesheet" media="all">
+    <script src="js/jquery-3.3.1.min.js"></script>
