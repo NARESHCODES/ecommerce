@@ -37,8 +37,19 @@ define('_DATABASE_NAME',        'ecommerce');
 /**
 *check if the current page is login page or not
 */
-if(strpos($_SERVER['REQUEST_URI'],'index')!==false){
-	$_SESSION['error']="Your session has expired or you've not logged in yet,please login";
+
+$haystack=$_SERVER['REQUEST_URI'];
+$needle=[
+			'index',
+			'users',
+			'user_add',
+			'user_edit',
+			'user_delete'
+		];
+foreach($needle as $value){
+if(strpos($haystack,$value)!==false){
+$_SESSION['error']="Your session has expired or you've not logged in yet,please login";
+}
 }
 /**
 *check if the user is logged in or not

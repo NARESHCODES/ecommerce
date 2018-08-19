@@ -17,7 +17,7 @@ if($_SERVER['REQUEST_METHOD'] === 'POST') {
         die;
     }
     else {
-        $_SESSION['error']= 'Login Details incorrect, please try again';
+        $_SESSION['error']= 'Login Details incorrect. please try again!';
          header("Location: login.php");;
     }
     die;
