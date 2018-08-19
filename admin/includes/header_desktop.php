@@ -13,7 +13,7 @@
                                     <div class="account-item clearfix js-item-menu">
                                         <div class="image">
                                            <?php if(!empty($_SESSION['_user']['photo_name'])) : ?>
-                                                        <img src="<?php echo _ROOT_URL . "/ecommerce/admin/uploads/users/" . $_SESSION['_user']['photo_name']; ?>" alt="">
+                                                        <img src="<?php echo _ROOT_URL . "/admin/uploads/users/" . $_SESSION['_user']['photo_name']; ?>" alt="">
                                                         <?php else: ?>
                                                         No image
                                                          <?php endif; ?>
@@ -26,7 +26,7 @@
                                                 <div class="image">
                                                     <a href="#">
                                                         <?php if(!empty($_SESSION['_user']['photo_name'])) : ?>
-                                                        <img src="<?php echo _ROOT_URL . "/ecommerce/admin/uploads/users/" . $_SESSION['_user']['photo_name']; ?>" alt="">
+                                                        <img src="<?php echo _ROOT_URL . "/admin/uploads/users/" . $_SESSION['_user']['photo_name']; ?>" alt="">
                                                         <?php else: ?>
                                                         No image
                                                          <?php endif; ?>
