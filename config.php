@@ -33,6 +33,13 @@ define('_DATABASE_USER',        'root');
 define('_DATABASE_PASSWORD',    '');
 define('_DATABASE_NAME',        'ecommerce');
 
+
+/**
+*check if the current page is login page or not
+*/
+if(strpos($_SERVER['REQUEST_URI'],'index')!==false){
+	$_SESSION['error']="Your session has expired or you've not logged in yet,please login";
+}
 /**
 *check if the user is logged in or not
 */
@@ -40,7 +47,6 @@ if(strpos($_SERVER['REQUEST_URI'],'admin')!==false){
 	$user= new \Lib\Models\User();
 	$currentpage=basename($_SERVER['SCRIPT_NAME']);
 	if($currentpage!=='login.php' && !$user->isAdminLogin()){
-		$_SESSION['error']="Your session has expired or you've not logged in yet,please login";
 		header('Location:login.php');
 		die;
 	}
