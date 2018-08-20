@@ -118,7 +118,7 @@ if($_SERVER['REQUEST_METHOD'] === 'POST'){
                                                     <label for="password" class=" form-control-label">Password</label>
                                                 </div>
                                                 <div class="col-12 col-md-9">
-                                                    <input type="password" minlength="5" autocomplete="off" id="password" name="password" placeholder="*****" class="form-control" required="">
+                                                    <input type="password" autocomplete="off" id="password" name="password" placeholder="*****" class="form-control">
                                                 </div>
                                             </div>
                                             <div class="row form-group">

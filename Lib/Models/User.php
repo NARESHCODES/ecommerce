@@ -71,14 +71,20 @@ public function update($data, $id) {
             throw new errorException("Email is required field, please provide Email address.");
         }
 
+        if(empty($data['username'])) {
+            throw new errorException("Username is required field, please provide username");
+        }
+
         if(!empty($data['password']) && strlen($data['password']) < 5) {
             throw new errorException("Password field must be at least 5 characters long.");
         }
+
 
         if(!empty($data['password'])) {
             $sql = "UPDATE $this->table SET 
                 full_name=?,
                 email=?,
+                username=?,
                 password=?,
                 photo_name=?,
                 status=?
@@ -87,6 +93,7 @@ public function update($data, $id) {
             $updateData = [
                 $data['full_name'],
                 $data['email'],
+                $data['username'],
                 md5($data['password']),
                 $data['photo_name'],
                 $data['status'],
@@ -97,12 +104,14 @@ public function update($data, $id) {
             $sql = "UPDATE $this->table SET 
                 full_name=?,
                 email=?,
+                username=?,
                 photo_name=?,
                 status=?
                 WHERE id=?";
             $updateData = [
                 $data['full_name'],
                 $data['email'],
+                $data['username'],
                 $data['photo_name'],
                 $data['status'],
                 $id
