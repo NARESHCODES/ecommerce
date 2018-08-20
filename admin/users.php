@@ -69,13 +69,13 @@ $users=$user->all();
                                                 <?php endif;?>
                                                 </td>
                                                 <td>
-                                                    <a href="./user_edit.php?id=<?php echo $user['id'];?>">Edit</a><br>
+                                                    <a href="./user_edit.php?id=<?php echo $user['id'];?>" class="badge badge-info">Edit</a><br>
                                                     <span>
                                                     <a onclick="if(!confirm('Do you really want to delete this user?')){
                                                         return false;
                                                     }else{
                                                         return true;
-                                                    }" href="./user_delete.php?id=<?php echo $user['id'];?>">Delete</a>
+                                                    }" href="./user_delete.php?id=<?php echo $user['id'];?>" class="badge badge-warning">Delete</a>
                                                     </span>
                                                     
                                                 </td>

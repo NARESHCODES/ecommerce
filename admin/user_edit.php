@@ -33,7 +33,7 @@ if($_SERVER['REQUEST_METHOD'] === 'POST'){
             }
         }
         $user->update($postData,$id);
-        $_SESSION['success'] = "User <span style='color:red;'>".$_POST['username']."</span> has been added successfully!";
+        $_SESSION['success'] = "User <span style='color:red;'>".$_POST['username']."</span> has been edited successfully!";
         header("Location: users.php");
         die();
     }
@@ -142,7 +142,7 @@ if($_SERVER['REQUEST_METHOD'] === 'POST'){
                                                 <div class="col-12 col-md-9">
                                                     <input type="hidden" name="photo_name_old" value="<?php echo $userInfo['photo_name']; ?>">
                                                     <?php if(!empty($userInfo['photo_name'])): ?>
-                                                        <p> <img width="200" src="<?php echo _ROOT_URL . "/ecommerce/admin/uploads/users/" . $userInfo['photo_name']; ?>" class="img-thumbnail">
+                                                        <p> <img width="200" src="<?php echo _ADMIN_URL . "/uploads/users/" . $userInfo['photo_name']; ?>" class="img-thumbnail">
                                                         </p>
                                                         <br>
                                                     <?php endif; ?>

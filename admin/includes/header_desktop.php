@@ -13,9 +13,9 @@
                                     <div class="account-item clearfix js-item-menu">
                                         <div class="image">
                                            <?php if(!empty($_SESSION['_user']['photo_name'])) : ?>
-                                                        <img src="<?php echo _ROOT_URL . "/admin/uploads/users/" . $_SESSION['_user']['photo_name']; ?>" alt="">
+                                                        <img src="<?php echo _ADMIN_URL . "/uploads/users/" . $_SESSION['_user']['photo_name']; ?>" alt="">
                                                         <?php else: ?>
-                                                        No image
+                                                        <img src="<?php echo _ADMIN_URL . '/images/icon/profile.jpg'; ?>" alt="">
                                                          <?php endif; ?>
                                         </div>
                                         <div class="content">
@@ -26,9 +26,9 @@
                                                 <div class="image">
                                                     <a href="#">
                                                         <?php if(!empty($_SESSION['_user']['photo_name'])) : ?>
-                                                        <img src="<?php echo _ROOT_URL . "/admin/uploads/users/" . $_SESSION['_user']['photo_name']; ?>" alt="">
+                                                        <img src="<?php echo _ADMIN_URL."/uploads/users/" . $_SESSION['_user']['photo_name']; ?>" alt="">
                                                         <?php else: ?>
-                                                        No image
+                                                         <img src="<?php echo _ADMIN_URL . '/images/icon/profile.jpg'; ?>" alt="">
                                                          <?php endif; ?>
                                                     </a>
                                                 </div>
