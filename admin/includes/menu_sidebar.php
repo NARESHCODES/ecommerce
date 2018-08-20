@@ -1,6 +1,6 @@
 <aside class="menu-sidebar d-none d-lg-block">
             <div class="logo">
-                <a href="index.php">
+                <a href="./">
                     <img src="images/icon/nareshlogo.png" alt="Nareshcodes" />
                 </a>
             </div>
